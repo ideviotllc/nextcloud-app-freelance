@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <!--
+    SPDX-FileCopyrightText: Nate Armentrout <nate@ideviot.com>
+    SPDX-License-Identifier: CC0-1.0
+    -->
+    <id>freelance</id>
+    <name>Freelance</name>
+    <summary>Track tasks, time, and expenses to generate invoices.</summary>
+    <description><![CDATA[TODO]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="nate@ideviot.com" >Nate Armentrout</author>
+    <namespace>Freelance</namespace>
+    <category>tools</category>
+    <bugs>https://github.com/ideviotllc/nextcloud-app-freelance/issues</bugs>
+    <dependencies>
+        <nextcloud min-version="27" max-version="27"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Freelance</name>
+            <route>freelance.page.index</route>
+        </navigation>
+    </navigations>
+</info>
